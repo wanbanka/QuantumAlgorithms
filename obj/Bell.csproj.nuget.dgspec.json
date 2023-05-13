@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj": {}
+    "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj": {}
   },
   "projects": {
-    "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj": {
+    "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
+        "projectUniqueName": "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
         "projectName": "Bell",
-        "projectPath": "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
+        "projectPath": "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
         "packagesPath": "C:\\Users\\tseni\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\obj\\",
+        "outputPath": "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tseni\\AppData\\Roaming\\NuGet\\NuGet.Config"
