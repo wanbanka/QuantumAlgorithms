@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1MsyuCjJY/MjDUlbtBJJHQZEWvWTpuhLlLDXWkcExxbHNk1DrR9XivKGqHqhOPjyv/UqmOILbRP9jy2IkEWmlw==",
+  "dgSpecHash": "zudYl1SvJcqn87mvwjhmwkHKHjhDoEKq+19AMMzUx4GewWOcgqwBfGCXeMI84RGdwfZoG19SGFj6Zj27GdoJbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
+  "projectFilePath": "c:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tseni\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tseni\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

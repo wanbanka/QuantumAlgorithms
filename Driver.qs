@@ -10,9 +10,9 @@ namespace Quantum.Bell  {
         for idx in 0..Length(initials) - 1 {
             let res = BellTest(1000, initials[idx]);
 
-            let (numZeros, numOnes) = res;
+            let (numZeros, numOnes, accord) = res;
 
-            Message($"Init:{initials[idx]} 0s={numZeros} 1s={numOnes}");
+            Message($"Init:{initials[idx]} 0s={numZeros} 1s={numOnes} accord={accord}");
         }
 
     }

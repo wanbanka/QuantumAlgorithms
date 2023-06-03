@@ -35,7 +35,7 @@ namespace Quantum.Bell
             set;
         }
 
-        protected ICallable<(Int64,Result), (Int64,Int64)> BellTest__
+        protected ICallable<(Int64,Result), (Int64,Int64,Int64)> BellTest__
         {
             get;
             set;
@@ -58,9 +58,9 @@ namespace Quantum.Bell
 #line 11 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Driver.qs"
                 var res = BellTest__.Apply((1000L, initials[idx]));
 #line 13 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Driver.qs"
-                var (numZeros,numOnes) = res;
+                var (numZeros,numOnes,accord) = res;
 #line 15 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Driver.qs"
-                Message__.Apply(String.Format("Init:{0} 0s={1} 1s={2}", initials[idx], numZeros, numOnes));
+                Message__.Apply(String.Format("Init:{0} 0s={1} 1s={2} accord={3}", initials[idx], numZeros, numOnes, accord));
             }
 
 #line hidden
@@ -71,7 +71,7 @@ namespace Quantum.Bell
         public override void __Init__()
         {
             this.Length__ = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Core.Length<>));
-            this.BellTest__ = this.__Factory__.Get<ICallable<(Int64,Result), (Int64,Int64)>>(typeof(BellTest));
+            this.BellTest__ = this.__Factory__.Get<ICallable<(Int64,Result), (Int64,Int64,Int64)>>(typeof(BellTest));
             this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
         }
 

@@ -11,26 +11,34 @@
         }
     }
 
-    operation BellTest(nombre: Int, debut: Result) : (Int, Int) {
+    operation BellTest(nombre: Int, debut: Result) : (Int, Int, Int) {
         mutable numOnes = 0;
+        mutable accord = 0;
 
-        use qubit = Qubit();
+        use qubits = Qubit[2];
 
         for test in 1..nombre {
-            Set(debut, qubit);
+            Set(debut, qubits[0]);
+            Set(Zero, qubits[1]);
 
-            let res = M(qubit);
+            H(qubits[0]);
+            CNOT(qubits[0], qubits[1]);
+
+            let res = M(qubits[0]);
+
+            if(M(qubits[1]) == res) {
+                set accord += 1;
+            }
 
             if(res == One) {
                 set numOnes += 1;
             }
         }
 
-        Set(Zero, qubit);
+        Set(Zero, qubits[0]);
+        Set(Zero, qubits[1]);
 
-        Reset(qubit);
-
-        return (nombre - numOnes, numOnes);
+        return (nombre - numOnes, numOnes, accord);
     }
     
 }

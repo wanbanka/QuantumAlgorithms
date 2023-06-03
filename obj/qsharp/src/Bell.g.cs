@@ -16,7 +16,7 @@ using Microsoft.Quantum.Simulation.Core;
 
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Bell\\\\Bell.qs\",\"Position\":{\"Item1\":5,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"attendue\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Bell\\\\Bell.qs\",\"Position\":{\"Item1\":5,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Bell\",\"Name\":\"BellTest\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Bell\\\\Bell.qs\",\"Position\":{\"Item1\":13,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"nombre\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"debut\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Bell\",\"Name\":\"BellTest\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Bell\\\\Bell.qs\",\"Position\":{\"Item1\":13,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"nombre\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"debut\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Bell\",\"Name\":\"BellTest\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Bell\\\\Bell.qs\",\"Position\":{\"Item1\":13,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
 #line hidden
 namespace Quantum.Bell
@@ -89,7 +89,7 @@ namespace Quantum.Bell
     }
 
     [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs", OperationFunctor.Body, 14, -1)]
-    public partial class BellTest : Operation<(Int64,Result), (Int64,Int64)>, ICallable
+    public partial class BellTest : Operation<(Int64,Result), (Int64,Int64,Int64)>, ICallable
     {
         public BellTest(IOperationFactory m) : base(m)
         {
@@ -104,9 +104,9 @@ namespace Quantum.Bell
             System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
         }
 
-        public class Out : QTuple<(Int64,Int64)>, IApplyData
+        public class Out : QTuple<(Int64,Int64,Int64)>, IApplyData
         {
-            public Out((Int64,Int64) data) : base(data)
+            public Out((Int64,Int64,Int64) data) : base(data)
             {
             }
 
@@ -133,53 +133,74 @@ namespace Quantum.Bell
             set;
         }
 
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> Microsoft__Quantum__Intrinsic__CNOT
+        {
+            get;
+            set;
+        }
+
         protected ICallable<Qubit, Result> Microsoft__Quantum__Intrinsic__M
         {
             get;
             set;
         }
 
-        protected ICallable<Qubit, QVoid> Reset__
-        {
-            get;
-            set;
-        }
-
-        public override Func<(Int64,Result), (Int64,Int64)> __Body__ => (__in__) =>
+        public override Func<(Int64,Result), (Int64,Int64,Int64)> __Body__ => (__in__) =>
         {
             var (nombre,debut) = __in__;
 #line 15 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
             var numOnes = 0L;
+#line 16 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+            var accord = 0L;
 #line hidden
             {
-#line 17 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                var qubit = Allocate__.Apply();
+#line 18 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                var qubits = Allocate__.Apply(2L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 19 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+#line 20 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
                     foreach (var test in new QRange(1L, nombre))
 #line hidden
                     {
-#line 20 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                        Set__.Apply((debut, qubit));
+#line 21 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                        Set__.Apply((debut, qubits[0L]));
 #line 22 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                        var res = Microsoft__Quantum__Intrinsic__M.Apply(qubit);
+                        Set__.Apply((Result.Zero, qubits[1L]));
 #line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                        Microsoft__Quantum__Intrinsic__H.Apply(qubits[0L]);
+#line 25 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                        Microsoft__Quantum__Intrinsic__CNOT.Apply((qubits[0L], qubits[1L]));
+#line 27 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                        var res = Microsoft__Quantum__Intrinsic__M.Apply(qubits[0L]);
+#line 29 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                        if ((Microsoft__Quantum__Intrinsic__M.Apply(qubits[1L]) == res))
+                        {
+#line 30 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                            accord = (accord + 1L);
+                        }
+
+#line 33 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
                         if ((res == Result.One))
                         {
-#line 25 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+#line 34 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
                             numOnes = (numOnes + 1L);
                         }
                     }
 
-#line 29 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                    Set__.Apply((Result.Zero, qubit));
-#line 31 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                    Reset__.Apply(qubit);
-#line 33 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
-                    return ((nombre - numOnes), numOnes);
+#line 38 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                    Set__.Apply((Result.Zero, qubits[0L]));
+#line 39 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                    Set__.Apply((Result.Zero, qubits[1L]));
+#line 41 "C:\\Users\\tseni\\Documents\\Quantum\\Bell\\Bell.qs"
+                    return ((nombre - numOnes), numOnes, accord);
                 }
 #line hidden
                 catch
@@ -193,7 +214,7 @@ namespace Quantum.Bell
                     if (__arg1__)
                     {
 #line hidden
-                        Release__.Apply(qubit);
+                        Release__.Apply(qubits);
                     }
                 }
             }
@@ -205,15 +226,16 @@ namespace Quantum.Bell
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
             this.Set__ = this.__Factory__.Get<ICallable<(Result,Qubit), QVoid>>(typeof(Set));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Intrinsic__CNOT = this.__Factory__.Get<IUnitary<(Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CNOT));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
-            this.Reset__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Reset));
         }
 
         public override IApplyData __DataIn__((Int64,Result) data) => new In(data);
-        public override IApplyData __DataOut__((Int64,Int64) data) => new Out(data);
-        public static System.Threading.Tasks.Task<(Int64,Int64)> Run(IOperationFactory __m__, Int64 nombre, Result debut)
+        public override IApplyData __DataOut__((Int64,Int64,Int64) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Int64,Int64,Int64)> Run(IOperationFactory __m__, Int64 nombre, Result debut)
         {
-            return __m__.Run<BellTest, (Int64,Result), (Int64,Int64)>((nombre, debut));
+            return __m__.Run<BellTest, (Int64,Result), (Int64,Int64,Int64)>((nombre, debut));
         }
     }
 }
