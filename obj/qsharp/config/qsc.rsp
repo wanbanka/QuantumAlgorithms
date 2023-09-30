@@ -2,6 +2,7 @@
     "C:\Users\tseni\Documents\Quantum\Grover\Grover"
 --build-exe
 --input
+    "C:\Users\tseni\Documents\Quantum\Grover\GroverSearch.qs"
     "C:\Users\tseni\Documents\Quantum\Grover\MarkColor.qs"
     "C:\Users\tseni\Documents\Quantum\Grover\Program.qs"
 --output

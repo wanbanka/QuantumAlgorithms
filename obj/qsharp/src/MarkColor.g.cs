@@ -19,18 +19,21 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkColorEquality\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":79},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Grover.MarkColorEquality\"]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkColorEquality\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":79},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlled specialization for Grover.MarkColorEquality\"]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkColorEquality\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":79},\"Item2\":{\"Line\":1,\"Column\":86}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Grover.MarkColorEquality\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"markingOracle\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":2,\"Column\":9},\"Item2\":{\"Line\":2,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"c0\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":3,\"Column\":9},\"Item2\":{\"Line\":3,\"Column\":11}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"c1\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":4,\"Column\":9},\"Item2\":{\"Line\":4,\"Column\":11}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":43,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":5,\"Column\":17},\"Item2\":{\"Line\":5,\"Column\":20}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Grover.ApplyMarkingOracleAsPhaseOracle\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Grover\",\"Name\":\"ShowPhaseKickbackTrick\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":75,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":76,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"ShowPhaseKickbackTrick\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":76,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Grover\",\"Name\":\"MarkValidvertexColoring\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":34}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"edges\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":2,\"Column\":9},\"Item2\":{\"Line\":2,\"Column\":14}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"colorsRegister\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":3,\"Column\":9},\"Item2\":{\"Line\":3,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":4,\"Column\":9},\"Item2\":{\"Line\":4,\"Column\":15}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkValidvertexColoring\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":34}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkValidvertexColoring\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":5,\"Column\":17},\"Item2\":{\"Line\":5,\"Column\":24}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Grover.MarkValidvertexColoring\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkValidvertexColoring\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":5,\"Column\":17},\"Item2\":{\"Line\":5,\"Column\":24}},\"Documentation\":[\"automatically generated QsControlled specialization for Grover.MarkValidvertexColoring\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"MarkValidvertexColoring\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":5,\"Column\":17},\"Item2\":{\"Line\":5,\"Column\":24}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Grover.MarkValidvertexColoring\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":45,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"markingOracle\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":2,\"Column\":9},\"Item2\":{\"Line\":2,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":3,\"Column\":9},\"Item2\":{\"Line\":3,\"Column\":17}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":45,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":42}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Grover\",\"Name\":\"ApplyMarkingOracleAsPhaseOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\tseni\\\\Documents\\\\Quantum\\\\Grover\\\\MarkColor.qs\",\"Position\":{\"Item1\":45,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":4,\"Column\":17},\"Item2\":{\"Line\":4,\"Column\":20}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Grover.ApplyMarkingOracleAsPhaseOracle\"]}")]
 #line hidden
 namespace Grover
 {
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 8, 44)]
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Adjoint, 8, 44)]
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Controlled, 8, 44)]
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.ControlledAdjoint, 8, 44)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 8, 24)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Adjoint, 8, 24)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Controlled, 8, 24)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.ControlledAdjoint, 8, 24)]
     public partial class MarkColorEquality : Unitary<(IQArray<Qubit>,IQArray<Qubit>,Qubit)>, ICallable
     {
         public MarkColorEquality(IOperationFactory m) : base(m)
@@ -205,17 +208,19 @@ namespace Grover
         }
     }
 
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 44, 77)]
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Adjoint, 44, 77)]
-    public partial class ApplyMarkingOracleAsPhaseOracle : Adjointable<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>)>, ICallable
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 24, 46)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Adjoint, 24, 46)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Controlled, 24, 46)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.ControlledAdjoint, 24, 46)]
+    public partial class MarkValidvertexColoring : Unitary<(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit)>, ICallable
     {
-        public ApplyMarkingOracleAsPhaseOracle(IOperationFactory m) : base(m)
+        public MarkValidvertexColoring(IOperationFactory m) : base(m)
         {
         }
 
-        public class In : QTuple<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>)>, IApplyData
+        public class In : QTuple<(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit)>, IApplyData
         {
-            public In((IAdjointable,IQArray<Qubit>,IQArray<Qubit>) data) : base(data)
+            public In((IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit) data) : base(data)
             {
             }
 
@@ -223,7 +228,335 @@ namespace Grover
             {
                 get
                 {
-                    return Qubit.Concat(((IApplyData)Data.Item1)?.Qubits, ((IApplyData)Data.Item2)?.Qubits, ((IApplyData)Data.Item3)?.Qubits);
+                    return Qubit.Concat(((IApplyData)Data.Item2)?.Qubits, ((IApplyData)Data.Item3)?.Qubits);
+                }
+            }
+        }
+
+        String ICallable.Name => "MarkValidvertexColoring";
+        String ICallable.FullName => "Grover.MarkValidvertexColoring";
+        protected ICallable Length__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Arrays__Chunks
+        {
+            get;
+            set;
+        }
+
+        protected Allocate Allocate__
+        {
+            get;
+            set;
+        }
+
+        protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<String, QVoid> Message__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Arrays__Zipped
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(IQArray<Qubit>,IQArray<Qubit>,Qubit)> MarkColorEquality__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Canon__ControlledOnInt
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__X
+        {
+            get;
+            set;
+        }
+
+        public override Func<(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit), QVoid> __Body__ => (__in__) =>
+        {
+            var (edges,colorsRegister,target) = __in__;
+#line 29 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var nEdges = edges.Length;
+#line 31 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var colors = (IQArray<IQArray<Qubit>>)Microsoft__Quantum__Arrays__Chunks.Apply<IQArray<IQArray<Qubit>>>((2L, colorsRegister));
+#line hidden
+            {
+#line 33 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                var conflictQubits = Allocate__.Apply(nEdges);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 35 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Message__.Apply(String.Format("{0}", colors));
+#line 38 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0__start__,__qsVar1__end__),__qsVar2__conflictQubit__) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)))
+#line hidden
+                    {
+#line 39 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Apply((colors[__qsVar0__start__], colors[__qsVar1__end__], __qsVar2__conflictQubit__));
+                    }
+
+#line 42 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Microsoft__Quantum__Canon__ControlledOnInt.Apply<IUnitary>((0L, Microsoft__Quantum__Intrinsic__X)).Apply((conflictQubits, target));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar0__start____,__qsVar1____qsVar1__end____),__qsVar2____qsVar2__conflictQubit____) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)).Slice(new QRange((Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)).Length - 1L), -1L, 0L)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Adjoint.Apply((colors[__qsVar0____qsVar0__start____], colors[__qsVar1____qsVar1__end____], __qsVar2____qsVar2__conflictQubit____));
+                    }
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(conflictQubits);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit), QVoid> __AdjointBody__ => (__in__) =>
+        {
+            var (edges,colorsRegister,target) = __in__;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var __qsVar0__nEdges__ = edges.Length;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var __qsVar1__colors__ = (IQArray<IQArray<Qubit>>)Microsoft__Quantum__Arrays__Chunks.Apply<IQArray<IQArray<Qubit>>>((2L, colorsRegister));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                var __qsVar2__conflictQubits__ = Allocate__.Apply(__qsVar0__nEdges__);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Message__.Apply(String.Format("{0}", __qsVar1__colors__));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar3__start____,__qsVar1____qsVar4__end____),__qsVar2____qsVar5__conflictQubit____) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Apply((__qsVar1__colors__[__qsVar0____qsVar3__start____], __qsVar1__colors__[__qsVar1____qsVar4__end____], __qsVar2____qsVar5__conflictQubit____));
+                    }
+
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Microsoft__Quantum__Canon__ControlledOnInt.Apply<IUnitary>((0L, Microsoft__Quantum__Intrinsic__X)).Adjoint.Apply((__qsVar2__conflictQubits__, target));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar0____qsVar3__start______,__qsVar1____qsVar1____qsVar4__end______),__qsVar2____qsVar2____qsVar5__conflictQubit______) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)).Slice(new QRange((Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)).Length - 1L), -1L, 0L)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Adjoint.Apply((__qsVar1__colors__[__qsVar0____qsVar0____qsVar3__start______], __qsVar1__colors__[__qsVar1____qsVar1____qsVar4__end______], __qsVar2____qsVar2____qsVar5__conflictQubit______));
+                    }
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(__qsVar2__conflictQubits__);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<Qubit>,(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit)), QVoid> __ControlledBody__ => (__in__) =>
+        {
+            var (__controlQubits__,(edges,colorsRegister,target)) = __in__;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var nEdges = edges.Length;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var colors = (IQArray<IQArray<Qubit>>)Microsoft__Quantum__Arrays__Chunks.Apply<IQArray<IQArray<Qubit>>>((2L, colorsRegister));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                var conflictQubits = Allocate__.Apply(nEdges);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Message__.Apply(String.Format("{0}", colors));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0__start__,__qsVar1__end__),__qsVar2__conflictQubit__) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Apply((colors[__qsVar0__start__], colors[__qsVar1__end__], __qsVar2__conflictQubit__));
+                    }
+
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Microsoft__Quantum__Canon__ControlledOnInt.Apply<IUnitary>((0L, Microsoft__Quantum__Intrinsic__X)).Controlled.Apply((__controlQubits__, (conflictQubits, target)));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar0__start____,__qsVar1____qsVar1__end____),__qsVar2____qsVar2__conflictQubit____) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)).Slice(new QRange((Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, conflictQubits)).Length - 1L), -1L, 0L)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Adjoint.Apply((colors[__qsVar0____qsVar0__start____], colors[__qsVar1____qsVar1__end____], __qsVar2____qsVar2__conflictQubit____));
+                    }
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(conflictQubits);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<Qubit>,(IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit)), QVoid> __ControlledAdjointBody__ => (__in__) =>
+        {
+            var (__controlQubits__,(edges,colorsRegister,target)) = __in__;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var __qsVar0__nEdges__ = edges.Length;
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var __qsVar1__colors__ = (IQArray<IQArray<Qubit>>)Microsoft__Quantum__Arrays__Chunks.Apply<IQArray<IQArray<Qubit>>>((2L, colorsRegister));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                var __qsVar2__conflictQubits__ = Allocate__.Apply(__qsVar0__nEdges__);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Message__.Apply(String.Format("{0}", __qsVar1__colors__));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar3__start____,__qsVar1____qsVar4__end____),__qsVar2____qsVar5__conflictQubit____) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Apply((__qsVar1__colors__[__qsVar0____qsVar3__start____], __qsVar1__colors__[__qsVar1____qsVar4__end____], __qsVar2____qsVar5__conflictQubit____));
+                    }
+
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Microsoft__Quantum__Canon__ControlledOnInt.Apply<IUnitary>((0L, Microsoft__Quantum__Intrinsic__X)).Adjoint.Controlled.Apply((__controlQubits__, (__qsVar2__conflictQubits__, target)));
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    foreach (var ((__qsVar0____qsVar0____qsVar3__start______,__qsVar1____qsVar1____qsVar4__end______),__qsVar2____qsVar2____qsVar5__conflictQubit______) in Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)).Slice(new QRange((Microsoft__Quantum__Arrays__Zipped.Apply<IQArray<((Int64,Int64),Qubit)>>((edges, __qsVar2__conflictQubits__)).Length - 1L), -1L, 0L)))
+#line hidden
+                    {
+#line 24 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                        MarkColorEquality__.Adjoint.Apply((__qsVar1__colors__[__qsVar0____qsVar0____qsVar3__start______], __qsVar1__colors__[__qsVar1____qsVar1____qsVar4__end______], __qsVar2____qsVar2____qsVar5__conflictQubit______));
+                    }
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(__qsVar2__conflictQubits__);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Length__ = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Core.Length<>));
+            this.Microsoft__Quantum__Arrays__Chunks = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Arrays.Chunks<>));
+            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
+            this.Microsoft__Quantum__Arrays__Zipped = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Arrays.Zipped<,>));
+            this.MarkColorEquality__ = this.__Factory__.Get<IUnitary<(IQArray<Qubit>,IQArray<Qubit>,Qubit)>>(typeof(MarkColorEquality));
+            this.Microsoft__Quantum__Canon__ControlledOnInt = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Canon.ControlledOnInt<>));
+            this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
+        }
+
+        public override IApplyData __DataIn__((IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit) data) => new In(data);
+        public override IApplyData __DataOut__(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, IQArray<(Int64,Int64)> edges, IQArray<Qubit> colorsRegister, Qubit target)
+        {
+            return __m__.Run<MarkValidvertexColoring, (IQArray<(Int64,Int64)>,IQArray<Qubit>,Qubit), QVoid>((edges, colorsRegister, target));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 46, -1)]
+    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Adjoint, 46, -1)]
+    public partial class ApplyMarkingOracleAsPhaseOracle : Adjointable<(IAdjointable,IQArray<Qubit>)>, ICallable
+    {
+        public ApplyMarkingOracleAsPhaseOracle(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(IAdjointable,IQArray<Qubit>)>, IApplyData
+        {
+            public In((IAdjointable,IQArray<Qubit>) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    return Qubit.Concat(((IApplyData)Data.Item1)?.Qubits, ((IApplyData)Data.Item2)?.Qubits);
                 }
             }
         }
@@ -254,26 +587,26 @@ namespace Grover
             set;
         }
 
-        public override Func<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>), QVoid> __Body__ => (__in__) =>
+        public override Func<(IAdjointable,IQArray<Qubit>), QVoid> __Body__ => (__in__) =>
         {
-            var (markingOracle,c0,c1) = __in__;
+            var (markingOracle,register) = __in__;
 #line hidden
             {
-#line 49 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 50 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                 var target = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 52 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Microsoft__Quantum__Intrinsic__X.Apply(target);
 #line 53 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    Microsoft__Quantum__Intrinsic__X.Apply(target);
+#line 54 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(target);
-#line 55 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    markingOracle.Apply((c0, c1, target));
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 56 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    markingOracle.Apply((register, target));
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__H.Adjoint.Apply(target);
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(target);
                 }
 #line hidden
@@ -298,26 +631,26 @@ namespace Grover
         }
 
         ;
-        public override Func<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>), QVoid> __AdjointBody__ => (__in__) =>
+        public override Func<(IAdjointable,IQArray<Qubit>), QVoid> __AdjointBody__ => (__in__) =>
         {
-            var (markingOracle,c0,c1) = __in__;
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+            var (markingOracle,register) = __in__;
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
             {
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                 var __qsVar0__target__ = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__X.Apply(__qsVar0__target__);
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(__qsVar0__target__);
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    markingOracle.Adjoint.Apply((c0, c1, __qsVar0__target__));
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+                    markingOracle.Adjoint.Apply((register, __qsVar0__target__));
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__H.Adjoint.Apply(__qsVar0__target__);
-#line 44 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
+#line 46 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
                     Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(__qsVar0__target__);
                 }
 #line hidden
@@ -350,147 +683,11 @@ namespace Grover
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
         }
 
-        public override IApplyData __DataIn__((IAdjointable,IQArray<Qubit>,IQArray<Qubit>) data) => new In(data);
+        public override IApplyData __DataIn__((IAdjointable,IQArray<Qubit>) data) => new In(data);
         public override IApplyData __DataOut__(QVoid data) => data;
-        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, IAdjointable markingOracle, IQArray<Qubit> c0, IQArray<Qubit> c1)
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, IAdjointable markingOracle, IQArray<Qubit> register)
         {
-            return __m__.Run<ApplyMarkingOracleAsPhaseOracle, (IAdjointable,IQArray<Qubit>,IQArray<Qubit>), QVoid>((markingOracle, c0, c1));
-        }
-    }
-
-    [SourceLocation("C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs", OperationFunctor.Body, 77, -1)]
-    public partial class ShowPhaseKickbackTrick : Operation<QVoid, QVoid>, ICallable
-    {
-        public ShowPhaseKickbackTrick(IOperationFactory m) : base(m)
-        {
-        }
-
-        String ICallable.Name => "ShowPhaseKickbackTrick";
-        String ICallable.FullName => "Grover.ShowPhaseKickbackTrick";
-        public static EntryPointInfo<QVoid, QVoid> Info => new EntryPointInfo<QVoid, QVoid>(typeof(ShowPhaseKickbackTrick));
-        protected Allocate Allocate__
-        {
-            get;
-            set;
-        }
-
-        protected Release Release__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable Microsoft__Quantum__Canon__ApplyToEach
-        {
-            get;
-            set;
-        }
-
-        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<String, QVoid> Message__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable Microsoft__Quantum__Diagnostics__DumpRegister
-        {
-            get;
-            set;
-        }
-
-        protected IAdjointable<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>)> ApplyMarkingOracleAsPhaseOracle__
-        {
-            get;
-            set;
-        }
-
-        protected IUnitary<(IQArray<Qubit>,IQArray<Qubit>,Qubit)> MarkColorEquality__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Qubit>, QVoid> ResetAll__
-        {
-            get;
-            set;
-        }
-
-        public override Func<QVoid, QVoid> __Body__ => (__in__) =>
-        {
-#line hidden
-            {
-#line 78 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                var (c0,c1) = (Allocate__.Apply(2L), Allocate__.Apply(2L));
-#line hidden
-                bool __arg1__ = true;
-                try
-                {
-#line 80 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, c1));
-#line 82 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Message__.Apply("Starting state: ");
-#line 83 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Microsoft__Quantum__Diagnostics__DumpRegister.Apply((QVoid.Instance, c1));
-#line 85 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    ApplyMarkingOracleAsPhaseOracle__.Apply((MarkColorEquality__, c0, c1));
-#line 87 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Message__.Apply("");
-#line 88 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Message__.Apply("After check: ");
-#line 90 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    Microsoft__Quantum__Diagnostics__DumpRegister.Apply((QVoid.Instance, c1));
-#line 92 "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\MarkColor.qs"
-                    ResetAll__.Apply(c1);
-                }
-#line hidden
-                catch
-                {
-                    __arg1__ = false;
-                    throw;
-                }
-#line hidden
-                finally
-                {
-                    if (__arg1__)
-                    {
-#line hidden
-                        Release__.Apply(c0);
-#line hidden
-                        Release__.Apply(c1);
-                    }
-                }
-            }
-
-#line hidden
-            return QVoid.Instance;
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
-            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
-            this.Microsoft__Quantum__Canon__ApplyToEach = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Canon.ApplyToEach<>));
-            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
-            this.Microsoft__Quantum__Diagnostics__DumpRegister = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpRegister<>));
-            this.ApplyMarkingOracleAsPhaseOracle__ = this.__Factory__.Get<IAdjointable<(IAdjointable,IQArray<Qubit>,IQArray<Qubit>)>>(typeof(ApplyMarkingOracleAsPhaseOracle));
-            this.MarkColorEquality__ = this.__Factory__.Get<IUnitary<(IQArray<Qubit>,IQArray<Qubit>,Qubit)>>(typeof(MarkColorEquality));
-            this.ResetAll__ = this.__Factory__.Get<ICallable<IQArray<Qubit>, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.ResetAll));
-        }
-
-        public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(QVoid data) => data;
-        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
-        {
-            return __m__.Run<ShowPhaseKickbackTrick, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<ApplyMarkingOracleAsPhaseOracle, (IAdjointable,IQArray<Qubit>), QVoid>((markingOracle, register));
         }
     }
 }

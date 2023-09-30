@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aJCTHknvosUdqU9kLCRHXNewaCkktzE1jERXhNPLbpzI+Kjzh4gRYnApplHpRNBWNQ9sQh6iivLq6A7ufRPNgA==",
+  "dgSpecHash": "Jn6hiRrVp5X6DsA+SIIYespgpFqmiF5Jj4NKif6AND/NPUu0Fu4GOETmtWFqSolbsgY5zrQ1qmQN2vFVQDaS1Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\tseni\\Documents\\Quantum\\Grover\\Grover.csproj",
+  "projectFilePath": "C:\\Users\\tseni\\Documents\\Quantum\\Grover\\Grover.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tseni\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tseni\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

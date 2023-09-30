@@ -32,6 +32,8 @@ namespace Grover {
 
         use conflictQubits = Qubit[nEdges];
 
+        Message($"{colors}");
+
         within {
             for ((start, end), conflictQubit) in Zipped(edges, conflictQubits) {
                 MarkColorEquality(colors[start], colors[end], conflictQubit);
@@ -42,9 +44,8 @@ namespace Grover {
     }
 
     operation ApplyMarkingOracleAsPhaseOracle(
-        markingOracle: ((Qubit[], Qubit[], Qubit) => Unit is Adj),
-        c0: Qubit[],
-        c1: Qubit[]
+        markingOracle: ((Qubit[], Qubit) => Unit is Adj),
+        register: Qubit[]
     ) : Unit is Adj {
         use target = Qubit();
 
@@ -52,7 +53,7 @@ namespace Grover {
             X(target);
             H(target);
         } apply {
-            markingOracle(c0, c1, target);
+            markingOracle(register, target);
         }
     }
 
@@ -73,22 +74,21 @@ namespace Grover {
         ResetAll(c1 + [target]);
     }
 
-    @EntryPoint()
-    operation ShowPhaseKickbackTrick() : Unit {
-        use (c0, c1) = (Qubit[2], Qubit[2]);
+    // operation ShowPhaseKickbackTrick() : Unit {
+    //     use (c0, c1) = (Qubit[2], Qubit[2]);
 
-        ApplyToEach(H, c1);
+    //     ApplyToEach(H, c1);
 
-        Message("Starting state: ");
-        DumpRegister((), c1);
+    //     Message("Starting state: ");
+    //     DumpRegister((), c1);
 
-        ApplyMarkingOracleAsPhaseOracle(MarkColorEquality, c0, c1);
+    //     ApplyMarkingOracleAsPhaseOracle(MarkColorEquality, c0, c1);
 
-        Message("");
-        Message("After check: ");
+    //     Message("");
+    //     Message("After check: ");
 
-        DumpRegister((), c1);
+    //     DumpRegister((), c1);
 
-        ResetAll(c1);
-    }
+    //     ResetAll(c1);
+    // }
 }
